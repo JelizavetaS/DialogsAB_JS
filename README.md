@@ -30,7 +30,7 @@ Elektroniskā klade par JavaScript :space_invader:
 ## 2.nodarbības tēma
 1. tēma Visual Stuido + GitHub
 2. tēma Izmaiņu akceptēšana un sagalbāšana
-3.
+3. tēma stila veidošana css ārējos failā
 
 > [!HTML]
 > - **Document Object Model in JavaScript** ***https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javascript/***
@@ -41,4 +41,4 @@ Elektroniskā klade par JavaScript :space_invader:
 
 > [!CSS]
 > - **CSS stila pievienošana(CSS Tutorial)** ***https://www.w3schools.com/css/css_howto.asp***
-> - **Elementa izvelne** ***https://www.w3schools.com/css/css_howto.asp***
+> - **Kā atsaukties** ***https://www.w3schools.com/css/css_howto.asp***
