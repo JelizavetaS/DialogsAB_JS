@@ -29,7 +29,7 @@ Elektroniskā klade par JavaScript :space_invader:
 
 ## 2.nodarbības tēma
 1. tēma Visual Stuido + GitHub
-2. tēma Izmaiņu akceptēšana un sagalbāšana
+2. tēma Izmaiņu akceptēšana un saglabāšana
 3. tēma stila veidošana css ārējos failā
 
 > [!HTML]
@@ -42,3 +42,6 @@ Elektroniskā klade par JavaScript :space_invader:
 > [!CSS]
 > - **CSS stila pievienošana(CSS Tutorial)** ***https://www.w3schools.com/css/css_howto.asp***
 > - **Kā atsaukties** ***https://www.w3schools.com/css/css_howto.asp***
+
+### mājasdarbs
+> - []trenēties veidot dažādus stilus ar CSS
