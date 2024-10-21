@@ -16,9 +16,9 @@ Elektroniskā klade par JavaScript :space_invader:
 > - **w3schools (html tutorial)**  ***https://www.w3schools.com/html/***
 
 ### mājasdarbs
-> - [ ] treniņi ar HTML https://www.w3schools.com/html/, ņemt piemērus, rakstīt html failos datorā, skatīties kā izskatās pārlukā
-> - [ ] uzinstalēt git for windows  https://git-scm.com/downloads
-> - [ ] uzinstalēt visual studio code https://code.visualstudio.com/
+> - [X] treniņi ar HTML https://www.w3schools.com/html/, ņemt piemērus, rakstīt html failos datorā, skatīties kā izskatās pārlukā
+> - [X] uzinstalēt git for windows  https://git-scm.com/downloads
+> - [X] uzinstalēt visual studio code https://code.visualstudio.com/
 
 >[!TIP]
 > 21.10. 17:00 - 18:00 var pieslēgties ātrāk ja ir jautājumi
