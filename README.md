@@ -3,7 +3,7 @@ Elektroniskā klade par JavaScript :space_invader:
 > [1_11_M_Programmēšanas pamati JavaScript valodā (bez priekšzināšanām programmēšanā) 16.10.24-11.12.24](https://e-vide.dialogs-ab.lv/course/view.php?id=248)
 
 
-## 1.nodarbības tēma
+## 1.nodarbība
 1. tēma HTML Tutorial
 2. tēma Ekrāna šērošana
 3. tēma GitHub
@@ -27,10 +27,10 @@ Elektroniskā klade par JavaScript :space_invader:
 ![priecīga bilde](https://i.pinimg.com/originals/64/45/ee/6445ee2274a782a7c528303e9bd823d7.gif)
 
 
-## 2.nodarbības tēma
-1. tēma Visual Stuido + GitHub
+## 2.nodarbība
+1. tēma Visual Stuido savienošana ar GitHub
 2. tēma Izmaiņu akceptēšana un saglabāšana
-3. tēma stila veidošana css ārējos failā
+3. tēma Stilu veidošana css ārējā failā
 
 > [!HTML]
 > - **Document Object Model in JavaScript** ***https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javascript/***
