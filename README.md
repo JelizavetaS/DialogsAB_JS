@@ -44,4 +44,4 @@ Elektroniskā klade par JavaScript :space_invader:
 > - **Kā atsaukties** ***https://www.w3schools.com/css/css_howto.asp***
 
 ### mājasdarbs
-> - [ ]trenēties veidot dažādus stilus ar CSS
+> - [ ] trenēties veidot dažādus stilus ar CSS
