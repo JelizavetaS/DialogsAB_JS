@@ -28,7 +28,7 @@ Elektroniskā klade par JavaScript :space_invader:
 
 
 ## 2.nodarbība
-1. tēma Visual Stuido savienošana ar GitHub
+1. tēma Visual Studio savienošana ar GitHub
 2. tēma Izmaiņu akceptēšana un saglabāšana
 3. tēma Stilu veidošana css ārējā failā
 
@@ -45,3 +45,11 @@ Elektroniskā klade par JavaScript :space_invader:
 
 ### mājasdarbs
 > - [ ] trenēties veidot dažādus stilus ar CSS
+
+
+## 3.nodarbība
+1. tēma Darbs ar Visual Studio (mapju izveidošana, stila failu pievienošana, sagataves, absolūtas un relatīvas adreses)
+ > - absolūtā adrese, piem., <link rel="stylesheet" href="/Users/elizabeth/Desktop/JavaScript/DialogsAB_JS/Class3/styles_css/mystyle.css">
+ > - relatīvā adrese, piem., <link rel="stylesheet" href="./styles_css/mystyle.css">
+2. tēma Izmaiņu akceptēšana un saglabāšana
+3. tēma Stilu veidošana css ārējā failā
