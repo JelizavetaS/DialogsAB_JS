@@ -51,5 +51,7 @@ Elektroniskā klade par JavaScript :space_invader:
 1. tēma Darbs ar Visual Studio (mapju izveidošana, stila failu pievienošana, sagataves, absolūtas un relatīvas adreses)
  > - absolūtā adrese, piem., <link rel="stylesheet" href="/Users/elizabeth/Desktop/JavaScript/DialogsAB_JS/Class3/styles_css/mystyle.css">
  > - relatīvā adrese, piem., <link rel="stylesheet" href="./styles_css/mystyle.css">
-2. tēma Izmaiņu akceptēšana un saglabāšana
-3. tēma Stilu veidošana css ārējā failā
+ > - vai uz publiski pieejamiem resuriem <link relrel="stylesheet" href="https://www.some.com/.../mystyle.css">
+ >
+2. tēma 
+3. tēma 
