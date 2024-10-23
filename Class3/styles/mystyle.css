@@ -37,7 +37,7 @@ h1 {
   #borderimg {
     border: 10px solid transparent;
     padding: 15px;
-    border-image: url(/Class3/styles/border.png) 5% round;
+    border-image: url(border.png) 5% round;
   }
 
   /* Style the header */

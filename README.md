@@ -66,4 +66,9 @@ Elektroniskā klade par JavaScript :space_invader:
 > - ***https://www.w3schools.com/colors/*** Populārākām krāsām ir izveidoti nosaukumi (piem., beige, navy utt.)
 > - HTML Color Picker ***https://www.w3schools.com/colors/colors_picker.asp***
 
-6. tēma 
+6. tēma JavaScript 
+> - Console, mainīgo veidošana, mainīšana, veidošana izmantojot esošos mainīgos. (a=10; b=20;....Cntrl+L ekrāna notīrīsāna console daļā; c=a+b; )
+
+7. tēma Hello World! Console ***"script console.log("Hello World!");/script***
+
+8. tēma izmēģināt JavaScript Operators Reference ***https://www.w3schools.com/jsref/jsref_operators.asp***
