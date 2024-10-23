@@ -48,9 +48,22 @@ Elektroniskā klade par JavaScript :space_invader:
 
 
 ## 3.nodarbība
+
 1. tēma Darbs ar Visual Studio (mapju izveidošana, stila failu pievienošana, sagataves, absolūtas un relatīvas adreses)
  > - absolūtā adrese, piem., <!--<link rel="stylesheet" href="/Users/elizabeth/Desktop/JavaScript/DialogsAB_JS/Class3/styles_css/mystyle.css">-->
  > - relatīvā adrese, piem., <!--<link rel="stylesheet" href="./styles_css/mystyle.css">-->
  > - vai uz publiski pieejamiem resuriem <!--<link relrel="stylesheet" href="https://www.some.com/.../mystyle.css">-->
+
 2. tēma  Live server izmantošana
-3. tēma 
+
+3. tēma html preview ***https://htmlpreview.github.io/***
+
+4. tēma Informācijas uzglabāšana, ASCII tabula (1 byte=8bits; kb 1024b; mb 1024 kb) ***https://www.ecowin.org/ascii.htm*** Bināra sistēma (3 bytes=24 bits; 2 24 pakāpē=16777216 ->unikālo krāsu skaits)
+![ascii](https://www.ecowin.org/aulas/resources/tables/asciitable.jpg)
+
+5. tēma Krāsa
+> - rgb (red, green, blue) - jebkuru krāsu var izveidot no trīm sastāvdaļām. Piem., (0,0,128->navy), var uzdot ar vārdu (#000080) ar heksidecimālo simbolu 00(piem.,red). 
+> - ***https://www.w3schools.com/colors/*** Populārākām krāsām ir izveidoti nosaukumi (piem., beige, navy utt.)
+> - HTML Color Picker ***https://www.w3schools.com/colors/colors_picker.asp***
+
+6. tēma 
