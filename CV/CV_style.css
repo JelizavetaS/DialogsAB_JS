@@ -6,7 +6,7 @@
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 200px;
-    background-image: linear-gradient(to bottom right, rgb(186, 147, 211), rgba(255, 255, 0, 0.572));
+    background-image: linear-gradient(to bottom right, rgba(186, 147, 211, 0.582), rgba(255, 255, 0, 0.392));
   }
   
   /* Header/Blog Title */
@@ -20,15 +20,17 @@
     max-height: 170px;
     align-items: center;
   }
-#tesla-logo {
-  height: 100px;
+#Elon-photo {
+  height: 170px;
   vertical-align: middle;
-  width: 20%;
+  width: AUTO;
+  border-radius: 40%;
 }
 #spacex-logo {
   height: auto;
   width: 20%;
 }
+
 #header-title {
   height: auto;
   width: 60%;
@@ -45,10 +47,41 @@
     color: rgba(51, 5, 82, 0.658);
     font-weight: bold;
   }
+  h3 {
+    font-size: 25px;
+    color: rgba(51, 5, 82, 0.658);
+    font-weight: bold;
+    font-style: italic;
+  }
 
   p {
     font-size: 25px;
     color: rgba(51, 5, 82, 0.658);
+  }
+
+  p1 {
+    font-size: 25px;
+    color: rgba(51, 5, 82, 0.658);
+  }
+  
+  p2{
+    color:  rgba(51, 5, 82, 0.658);
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 5px;
+  }
+
+  p3{
+    color:  rgba(51, 5, 82, 0.658);
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 3px;
+  }
+
+  ul.a {
+    list-style-type: circle;
+    color:  rgba(37, 32, 40, 0.728);
+    font-size: 25px;
   }
   
   /* Style the top navigation bar */
