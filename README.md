@@ -90,3 +90,77 @@ Elektroniskā klade par JavaScript :space_invader:
 > - līdz pirmdienai, 28.10.2024., izmēģināt visas operācijas Consolē **JavaScript Operators Reference** ***https://www.w3schools.com/jsref/jsref_operators.asp***
 Pievērst uzmanību atbildei 
 > - JavaScript **Notes for Professionals** grāmatu no goalkisker.com ***https://goalkicker.com/JavaScriptBook/***
+
+## 4.nodarbība
+
+1. tēma JavaScript datu veidi, to lietošana un pārveidošana.
+>- date1 = Date.now() (The Date.now() static method returns the number of milliseconds elapsed since the epoch, which is defined as the midnight at the beginning of January 1, 1970, UTC. A number representing the timestamp, in milliseconds, of the current time, e.x. Might be: 1519211809934)
+>- date = new.Date();
+>- typeof(date)
+>- console.log() (kā informēt sevi)
+>- "text1"+some_variable+"text2"
+>- `text1 ${some_variable} text2`
+
+
+2. tēma JavaScript Identifies 
+The general rules for constructing names for variables (unique identifiers) are:
+>- Names can contain letters, digits, underscores, and dollar signs.
+>- Names must begin with a letter.
+>- Names can also begin with $ and _ (but we will not use it in this tutorial).
+>- Names are case sensitive (y and Y are different variables).
+>- Reserved words (like JavaScript keywords) cannot be used as names.
+
+3. tēma
+>- scope {} - reģions, nākotnē palīdzēs padarīt kodu pārskatāmāku un izsekot kļūdas skriptos
+
+4. tēma Variables https://www.w3schools.com/js/js_variables.asp
+JavaScript Variables can be declared in 4 ways:
+>- automatically
+>- var (mainīgo definēšana: var x=10; piemērs: ***https://github.com/tatusmatrixAB/DialogsAB_JS_2024/tree/main/Nodarbiba_03/JS)***
+
+5. tēma Let 
+***https://www.w3schools.com/js/js_let.asp***
+>- The let keyword was introduced in ES6 (2015)
+>- Variables declared with let have Block Scope
+>- Variables declared with let must be Declared before use
+>- Variables declared with let cannot be Redeclared in the same scope
+
+piemērs: ***https://github.com/tatusmatrixAB/DialogsAB_JS_2024/blob/main/Nodarbiba_03/JS/let.js***
+>-let nevar pārdeklarēt, izņemot reģionā {}
+
+6.tēma Const (nav iespējams mainīt) ***https://www.w3schools.com/js/js_const.asp***
+
+When to use JavaScript const?
+Always declare a variable with const when you know that the value should not be changed.
+
+Use const when you declare:
+
+A new Array
+A new Object
+A new Function
+A new RegExp
+
+
+>- The const keyword was introduced in ES6 (2015)
+>- Variables defined with const cannot be Redeclared
+>- Variables defined with const cannot be Reassigned
+>- Variables defined with const have Block Scope
+
+![Difference Between var, let and const]()
+
+pielikt bildi ar salīdzinājumu
+
+JS operators
+
+
+
+7.tēma Arrays (Masīvs, masīva veidošana) **https://www.w3schools.com/js/js_arrays.asp**
+atslēgas vārds *const*
+An array is a special variable, which can hold more than one value: const cars = ["Saab", "Volvo", "BMW"];
+
+### mājasdarbs
+> - līdz trešdienai, 30.10.2024., pamēģināt izprast piemēros piedāvāto (**https://www.w3schools.com/js/js_arrays.asp**) apvienot/ievietot/izņemt vērtības utt.
+
+līdz pirmdienai, 28.10.2024., izmēģināt visas operācijas Consolē **JavaScript Operators Reference** ***https://www.w3schools.com/jsref/jsref_operators.asp***
+Pievērst uzmanību atbildei 
+> - JavaScript **Notes for Professionals** grāmatu no goalkisker.com ***https://goalkicker.com/JavaScriptBook/***
