@@ -30,7 +30,7 @@
   height: auto;
   width: 20%;
 }
-
+/*text headers*/
 #header-title {
   height: auto;
   width: 60%;
@@ -53,7 +53,7 @@
     font-weight: bold;
     font-style: italic;
   }
-
+/*paragrah style*/
   p {
     font-size: 25px;
     color: rgba(51, 5, 82, 0.658);
@@ -87,11 +87,24 @@
     font-size: 15px;
     color: rgba(51, 5, 82, 0.658);
   }
+  /*list*/
   ul.a {
     list-style-type: circle;
     color:  rgba(37, 32, 40, 0.728);
     font-size: 25px;
   }
+  /*table of skills&competences*/
+  table {
+    border-collapse: separate;
+    width: 100%;
+  }
+  th, td {
+    padding: px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color: rgba(136, 65, 155, 0.527);}
   
   /* Style the top navigation bar */
   .topnav {
