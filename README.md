@@ -91,6 +91,10 @@ Elektroniskā klade par JavaScript :space_invader:
 Pievērst uzmanību atbildei 
 > - JavaScript **Notes for Professionals** grāmatu no goalkisker.com ***https://goalkicker.com/JavaScriptBook/***
 
+
+
+
+
 ## 4.nodarbība
 
 1. tēma JavaScript datu veidi, to lietošana un pārveidošana.
@@ -157,6 +161,8 @@ JS operators
 7.tēma Arrays (Masīvs, masīva veidošana) **https://www.w3schools.com/js/js_arrays.asp**
 atslēgas vārds *const*
 An array is a special variable, which can hold more than one value: const cars = ["Saab", "Volvo", "BMW"];
+
+
 
 ### mājasdarbs
 > - līdz trešdienai, 30.10.2024., pamēģināt izprast piemēros piedāvāto (**https://www.w3schools.com/js/js_arrays.asp**) apvienot/ievietot/izņemt vērtības utt.
