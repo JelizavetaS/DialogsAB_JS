@@ -96,15 +96,16 @@
   /*table of skills&competences*/
   table {
     border-collapse: separate;
-    width: 100%;
+    width: 80%;
   }
   th, td {
-    padding: px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-top: #734d91;
+    border-bottom: #dcb8f9;
+    border-radius: 45PX;
+    background-color: rgba(136, 65, 155, 0.527);
   }
-  
-  tr:hover {background-color: rgba(136, 65, 155, 0.527);}
   
   /* Style the top navigation bar */
   .topnav {
