@@ -132,7 +132,7 @@ JavaScript Variables can be declared in 4 ways:
 piemērs: ***https://github.com/tatusmatrixAB/DialogsAB_JS_2024/blob/main/Nodarbiba_03/JS/let.js***
 >-let nevar pārdeklarēt, izņemot reģionā {}
 
-6.tēma Const (nav iespējams mainīt) ***https://www.w3schools.com/js/js_const.asp***
+6. tēma Const (nav iespējams mainīt) ***https://www.w3schools.com/js/js_const.asp***
 
 When to use JavaScript const?
 Always declare a variable with const when you know that the value should not be changed.
@@ -152,13 +152,11 @@ A new RegExp
 
 ![Difference Between var, let and const](/va_let_const.png)
 
-pielikt bildi ar salīdzinājumu
-
-JS operators
-
+7. tēma JS operators **https://www.w3schools.com/jsref/jsref_operators.asp**
+Operators are used to assign values, compare values, perform arithmetic operations, and more.
 
 
-7.tēma Arrays (Masīvs, masīva veidošana) **https://www.w3schools.com/js/js_arrays.asp**
+8. tēma Arrays (Masīvs, masīva veidošana) **https://www.w3schools.com/js/js_arrays.asp**
 atslēgas vārds *const*
 An array is a special variable, which can hold more than one value: const cars = ["Saab", "Volvo", "BMW"];
 
