@@ -150,7 +150,7 @@ A new RegExp
 >- Variables defined with const cannot be Reassigned
 >- Variables defined with const have Block Scope
 
-![Difference Between var, let and const]()
+![Difference Between var, let and const](/va_let_const.png)
 
 pielikt bildi ar salīdzinājumu
 
