@@ -167,6 +167,3 @@ An array is a special variable, which can hold more than one value: const cars =
 ### mājasdarbs
 > - līdz trešdienai, 30.10.2024., pamēģināt izprast piemēros piedāvāto (**https://www.w3schools.com/js/js_arrays.asp**) apvienot/ievietot/izņemt vērtības utt.
 
-līdz pirmdienai, 28.10.2024., izmēģināt visas operācijas Consolē **JavaScript Operators Reference** ***https://www.w3schools.com/jsref/jsref_operators.asp***
-Pievērst uzmanību atbildei 
-> - JavaScript **Notes for Professionals** grāmatu no goalkisker.com ***https://goalkicker.com/JavaScriptBook/***
