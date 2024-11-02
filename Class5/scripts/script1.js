@@ -24,3 +24,5 @@ document.getElementById("array_shift").innerHTML = `${cars} masīva izmērs - ${
 
 cars_spliced = cars.splice(1,2);
 document.getElementById("array_splice_without_add").innerHTML = `${cars} masīva izmērs - ${cars.length} elementi (izdzēstie elementi - ${cars_spliced})`;
+
+document.getElementById("array_join").innerHTML = cars.join(" * ");
