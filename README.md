@@ -181,10 +181,9 @@ An array is a special variable, which can hold more than one value: const cars =
 
 <ins>Shifting is equivalent to popping, but working on the first element instead of the last.</ins> 
 
-The **shift()** method removes the first array element and "shifts" all other elements to a lower index (fruits.shift()). The shift() method returns the value that was "shifted out" (let fruit = fruits.shift()).
-The **unshift()** method adds a new element to an array (at the beginning), and "unshifts" older elements (fruits.unshift("Lemon")) and returns the new array length.
-
-<ins>**Delete()***</ins> Using delete() leaves undefined holes in the array (use pop() or shift() instead).
+> - The **shift()** method removes the first array element and "shifts" all other elements to a lower index (fruits.shift()). The shift() method returns the value that was "shifted out" (let fruit = fruits.shift()).
+> - The **unshift()** method adds a new element to an array (at the beginning), and "unshifts" older elements (fruits.unshift("Lemon")) and returns the new array length.
+> - **Delete()** Using delete() leaves undefined holes in the array (use pop() or shift() instead).
 
 <ins>Splicing and Slicing Arrays</ins> 
 
