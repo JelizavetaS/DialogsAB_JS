@@ -171,30 +171,41 @@ An array is a special variable, which can hold more than one value: const cars =
 
 1. tēma Masīvi (**https://www.w3schools.com/js/js_arrays.asp**)
 > - izmantojam  "id", lai piešķirtu paragrafam noteiktu nosaukumu, varētu vieglāk samkelēt un mainīt konkrēta paragrafa stāvokli
-> -  masīva metodes **https://www.w3schools.com/js/js_array_methods.asp**, masīva metodes, atslēgvārdi. 
-```
+> - masīvu kārtošana **https://www.w3schools.com/js/js_array_sort.asp**
+> - masīva metodes **https://www.w3schools.com/js/js_array_methods.asp**, masīva metodes, atslēgvārdi. 
+
 <ins>Popping items out of an array, or pushing items into an array.</ins> 
+
 > - The **pop()** method removes the last element from an array and returns the value that was "popped out". 
 > - The **push()** method adds a new element to an array (at the end) and returns the new array length.
 
-<ins>Shifting is equivalent to popping, but working on the first element instead of the last.</ins> The **shift()** method removes the first array element and "shifts" all other elements to a lower index (fruits.shift()). The shift() method returns the value that was "shifted out" (let fruit = fruits.shift()).
+<ins>Shifting is equivalent to popping, but working on the first element instead of the last.</ins> 
+
+The **shift()** method removes the first array element and "shifts" all other elements to a lower index (fruits.shift()). The shift() method returns the value that was "shifted out" (let fruit = fruits.shift()).
 The **unshift()** method adds a new element to an array (at the beginning), and "unshifts" older elements (fruits.unshift("Lemon")) and returns the new array length.
 
 <ins>**Delete()***</ins> Using delete() leaves undefined holes in the array (use pop() or shift() instead).
 
 <ins>Splicing and Slicing Arrays</ins> 
+
 The **splice()** method adds new items to an array (fruits.splice(2, 0, "Lemon", "Kiwi"):
-The first parameter (2) defines the position where new elements should be added (spliced in).
-The second parameter (0) defines how many elements should be removed.
-The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.) 
+> -  The first parameter (2) defines the position where new elements should be added (spliced in).
+> -  The second parameter (0) defines how many elements should be removed.
+> -  The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.) 
 
-The **slice()** method slices out a piece of an array.
+The **slice()** method slices out a piece of an array. With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array (fruits.splice(0, 1))
+
+> - The first parameter (0) defines the position where new elements should be added (spliced in).
+> - The second parameter (1) defines how many elements should be removed.
+> - The rest of the parameters are omitted. No new elements will be added.
+
+The **find()** method returns the value of the first array element that passes a test function. The function takes 3 arguments: item value, index and array itself. find() is an ES6 feature.
 
 
-```
 
 2. tēma HTML elementi un atributi
-3. tēma datu tipi
+
+3. tēma datu tipi **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures**
 
 
 4. tēma cikli (loops)
