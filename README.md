@@ -200,14 +200,8 @@ The **slice()** method slices out a piece of an array. With clever parameter set
 
 The **find()** method returns the value of the first array element that passes a test function. The function takes 3 arguments: item value, index and array itself. find() is an ES6 feature.
 
-
-
 2. tēma HTML elementi un atributi
 
 3. tēma datu tipi **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures**
 
 
-4. tēma cikli (loops)
-
-JavaScript datu veidi, to lietošana un pārveidošana.
->- date1
