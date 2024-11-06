@@ -213,3 +213,7 @@ The **find()** method returns the value of the first array element that passes a
 https://www.w3schools.com/js/js_if_else.asp
 
 nosacījuma operators, pārslegšanas operators
+
+## 7.nodarbība
+
+

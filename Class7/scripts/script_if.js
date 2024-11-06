@@ -67,6 +67,7 @@ function selectionSort(arr) {
       arr[min_idx] = temp;
   }
 }
+// Driver function 
 
 function printArray(arr) {
   for (let val of arr) {
@@ -75,9 +76,6 @@ function printArray(arr) {
   }
   console.log();
 }
-
-// Driver function 
-//const arr = [64, 25, 12, 22, 11];
 
 console.log("Original array: ", dati2.toString());
 // printArray(dati2);
