@@ -23,10 +23,16 @@ document.getElementById("demo").innerText = dati;
 // [1, 2, 5, -89, 7, 0, 4, 74]
 
 N = dati.length;
-for (let i = 0; i < N - 1; i++) {
-console.log(i, dati[i], i+1, dati [i+1], dati[i] > dati [i+1]);
+for (let i = 0; i > N - 1; i++) {
+  console.log(i, dati[i], i+1, dati[i+1], dati[i] > dati[i+1]);
+  if (dati[i] > dati[i+1]) {
+    temp =dati[i];
+    dati[1] = dati[i+1];
+    dati[i+1] = temp;
+    console.log("Ir veiktas izmaiņas: " ,i, dati[i], i+1, dati[i+1], dati[i] > dati[i+1]);
+  }
 
-
+  
 }
 
 
