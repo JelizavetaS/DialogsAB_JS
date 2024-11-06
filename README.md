@@ -204,4 +204,12 @@ The **find()** method returns the value of the first array element that passes a
 
 3. tēma datu tipi **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures**
 
+## 6.nodarbība
 
+
+> - If...else **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else**
+> - Truthy **https://developer.mozilla.org/en-US/docs/Glossary/Truthy**
+> - Falsy **https://developer.mozilla.org/en-US/docs/Glossary/Falsy**
+https://www.w3schools.com/js/js_if_else.asp
+
+nosacījuma operators, pārslegšanas operators
