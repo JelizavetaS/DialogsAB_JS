@@ -1,5 +1,6 @@
 {
-    // 1. Uzdot divus mainīgos, piemēram, a = 1; b = 10; sakārtot tos un attēlot augošā secībā.
+    // 1. Uzdot divus mainīgos, piemēram, a = 1; b = 10; 
+    // sakārtot tos un attēlot augošā secībā.
     const a = 1;
     const b = 10
 
@@ -10,7 +11,8 @@
     }
 }
 {
-    // 2. Uzdot divus mainīgos, piemēram, a = 1; b = 10; sakārtot tos un attēlot dilstošā secībā.
+    // 2. Uzdot divus mainīgos, piemēram, a = 1; b = 10; 
+    // sakārtot tos un attēlot dilstošā secībā.
     const a = 1;
     const b = 10
 
@@ -21,7 +23,8 @@
     }
 }
 {
-    // 3. Uzdot trīs mainīgos, piemēram, a = 1; b = 10; c = 3; sakārtot tos un attēlot augošā secībā. Atkārtot uzdevumu pie dažādām a, b un c sākuma vērtību kombinācijām.
+    // 3. Uzdot trīs mainīgos, piemēram, a = 1; b = 10; c = 3; 
+    // sakārtot tos un attēlot augošā secībā. Atkārtot uzdevumu pie dažādām a, b un c sākuma vērtību kombinācijām.
     const a = 1;
     const b = 10
     const c = 3;
@@ -49,7 +52,8 @@
 }
 
 {
-// 4. Uzdot trīs mainīgos, piemēram, a = 1; b = 10; c = 3; sakārtot tos un attēlot dilstošā secībā. Atkārtot uzdevumu pie dažādām a, b un c sākuma vērtību kombinācijām.
+// 4. Uzdot trīs mainīgos, piemēram, a = 1; b = 10; c = 3; 
+// sakārtot tos un attēlot dilstošā secībā. Atkārtot uzdevumu pie dažādām a, b un c sākuma vērtību kombinācijām.
     const a = 1;
     const b = 10
     const c = 3;
