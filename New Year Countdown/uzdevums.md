@@ -2,7 +2,7 @@ Uzdevums:
 [x] no Vanilla JS projekti izmēģināšanai no visas pasaules sadaļas izvēlēties vienu projektu
 [x] palaist to no savas lokālās mašīnas (/Users/elizabeth/Desktop/JavaScript/DialogsAB_JS/New Year Countdown/index.html)
 [x] veikt projekta JS koda "auditu"
-[] uzskaitīt un raksturot mainīgos, to vajadzību un pielietošanas robežas (scope):
+[x] uzskaitīt un raksturot mainīgos, to vajadzību un pielietošanas robežas (scope):
 
 -"- nosacījuma operatorus jeb If_else **https://www.w3schools.com/js/js_if_else.asp** 
     Use if to specify a block of code to be executed, if a specified condition is true

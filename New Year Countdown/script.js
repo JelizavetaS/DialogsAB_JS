@@ -8,7 +8,7 @@ const year = document.getElementById('year');
 const loading = document.getElementById('loading');
 
 // no Date objekta iegūstam tagadējo gadu
-const currentYear = new Date().getFullYear(); 
+const currentYear = new Date().getFullYear(); //.getFullYear - iebūvētā funkcija, kura  no objekta Date izņem tikai gada 4 ciparus
 
 // izveidojam jaunu Date objektu, kas satur jaunā gada datus
 const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`); 
@@ -21,12 +21,12 @@ function updateCountdown() {
   const currentTime = new Date();
   const diff = newYearTime - currentTime;
 
-  const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+  const d = Math.floor(diff / 1000 / 60 / 60 / 24); // no Date objekta datiem izrēķina dienas vērtību
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   const m = Math.floor(diff / 1000 / 60) % 60;
   const s = Math.floor(diff / 1000) % 60;
 
-  // Piešķir jaunu html vērtību "DOM" (Document object model) objektiem
+  // Piešķir jaunu html vērtību "DOM" (Document object model = website) objektiem
   days.innerHTML = d;
   hours.innerHTML = h < 10 ? '0' + h : h; // if h<10 then pievieno 0 pirms skaitļa kas ir mazāks par 10 (piem, 0+h<10 - 07, 08, 09), else stunda (h; 10, 11, 12 utt.)
   minutes.innerHTML = m < 10 ? '0' + m : m; // if m<10 then '0', else 'm'
