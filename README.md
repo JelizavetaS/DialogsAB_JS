@@ -216,4 +216,23 @@ nosacījuma operators, pārslegšanas operators
 
 ## 7.nodarbība
 
+## 9.nodarbība
+Objektu orientētas programmēšanas pamati (OOP). Inkapsulācija. Mantošana. Polimorfisms.
+https://www.w3schools.com/js/js_objects.asp
+
+JavaScript Object Definition:
+
+>- Using an Object Literal (An object literal is a list of name:value pairs inside curly braces {}{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"})
+>- Using the new Keyword 
+>- Using an Object Constructor
+
+
+Object Properties https://www.w3schools.com/js/js_object_property.asp
+
+How to describe function in JavaScript (all possible kinds)? https://chatgpt.com/share/67323625-dd14-8012-8daa-ff3ef405b4b0
+
+
+
+###konsultācija 23.11.2024. 09:00-10:30
+
 
