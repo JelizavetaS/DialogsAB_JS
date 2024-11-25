@@ -236,3 +236,8 @@ How to describe function in JavaScript (all possible kinds)? https://chatgpt.com
 ###konsultācija 23.11.2024. 09:00-10:30
 
 
+
+
+
+## 10.nodarbība
+JavaScript Display Objects https://www.w3schools.com/js/js_object_display.asp
