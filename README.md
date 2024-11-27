@@ -241,3 +241,17 @@ How to describe function in JavaScript (all possible kinds)? https://chatgpt.com
 
 ## 10.nodarbība
 JavaScript Display Objects https://www.w3schools.com/js/js_object_display.asp
+
+
+## 11.nodarbība
+https://www.javascripttutorial.net/javascript-bom/javascript-window/
+
+The window object exposes the functionality of the web browser to the webpage.
+
+1) Window size
+The window object has four properties related to the size of the window:
+
+The innerWidth and innerHeight properties return the size of the page viewport inside the browser window (not including the borders and toolbars).
+The outerWidth and outerHeight properties return the size of the browser window itself.
+Also, document.documentElement.clientWidth and document.documentElement.clientHeight properties indicate the width and height of the page viewport.
+
