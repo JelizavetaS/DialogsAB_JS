@@ -1,11 +1,11 @@
 //https://www.javascripttutorial.net/javascript-bom/javascript-window/
 //sk.sadaļu "Alert" alert("Cienījamais lietotājs, tulīt mēs Tevi informēsim par ...");//viss, kas tiks plānots pēc, tiks izpildīts tad, kad lietotājs noreaģēs uz paziņojumu
-//Section 1.Window
+//-------------------------------------Section 1. Window------------------------------------------------------------
 
 
 
 
-
+//-------------------------------------------------------------------------------------------------
 //Window
 var counter = 1;
 var showCounter = () => console.log({ counter });
@@ -16,7 +16,7 @@ console.log(window.counter);
 showCounter();
 window.showCounter();
 
-//1)---------------Window size---------------
+//1)---------------Window size----------
 //inner
 const inner_width = window.innerWidth
 || document.documentElement.clientWidth
@@ -41,7 +41,7 @@ console.log("Pārlūka loga ārējās daļas platums - " +outer_width);
 const outer_height = window.outerHeight
 console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
 
-//2)---------------Open a new window---------------
+//2)---------------Open a new window---------
 
 //let url = 'http://127.0.0.1:5500/DialogsAB_JS/Class7/index7.html';
 //let jsWindow = window.open(url,'Class7');
@@ -49,7 +49,7 @@ console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
 // drošības pēc lokālu failu aplūkošana ir bloķēta
 // Note that the web browser will block the popup automatically. To see the new window, you need to unblock the popup from your web browser. 
 
-
+/*
 //let jsWindow = window.open(
            //"https://rtu.lv",
   //  "http://127.0.0.1:5500/DialogsAB_JS/Class8/index8.html",
@@ -57,12 +57,12 @@ console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
   //  "Class08",
   //  "height=600,width=800");
   
-  //3)---------------Resize a window---------------
+  //3)---------------Resize a window-------------
 // setTimeout(() => {
  //   jsWindow.resizeTo(600, 300);
  // }, 3000); //The following example opens a new window that loads the page and resize it to (600,300) after 3 seconds:
   
-  //4)---------------Moving window to a specified coordinate---------------
+  //4)------------Moving window to a specified coordinate----------
  // setTimeout(() => {
  //     jsWindow.moveBy(20,-50); //In this method, x and y are horizontal and vertical coordinates to be moved to. 
  // }, 4000); //The following example opens a new window and moves it to (20,-50) coordinate after 4 seconds
@@ -71,7 +71,7 @@ console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
   //setTimeout(() => {
   //    jsWindow.close();
   //}, 10000); //The following example opens a new window and closes it after 10 seconds:
-
+*/
 // 6)---------------The window.opener property---------------
 //-> A newly created window can reference back to the window that opened it via the window.opener property. This allows you to exchange data between the two windows. 
 // -> console -> "window.opener"
@@ -79,14 +79,14 @@ console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
 
 
 
-
+//-------------------------------------------------------------------------------------------------
 //Alert - lietotāja informēšana, ziņojums
 //alert("Cienījamais lietotājs, tulīt mēs Tevi informēsim par ...");//viss, kas tiks plānots pēc, tiks izpildīts tad, kad lietotājs noreaģēs uz paziņojumu
 // -> https://www.javascripttutorial.net/javascript-bom/javascript-alert/
 
 
 
-
+//-------------------------------------------------------------------------------------------------
 //Confirm - displays a confirmation dialog
 //https://www.javascripttutorial.net/javascript-bom/javascript-confirm/
 //->The question is an optional string to display in the dialog.
@@ -101,7 +101,7 @@ console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
 
 
 
-
+//-------------------------------------------------------------------------------------------------
 //Prompt - plašāka atgriezeniskā saite no lietotāja
 //https://www.javascripttutorial.net/javascript-bom/javascript-prompt/
 //-> The prompt() is a method of the window object. The prompt() method instructs the web browser to display a dialog with a text, text input field, and two buttons OK and Cancel.
@@ -132,7 +132,7 @@ console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
 
 
 
-
+//-------------------------------------------------------------------------------------------------
 //setTimeout()
 //The setTimeout() is a method of the window object. The setTimeout()  sets a timer and executes a callback function after the timer expires.
 //https://www.javascripttutorial.net/javascript-bom/javascript-settimeout/
@@ -144,15 +144,79 @@ console.log("Pārlūka loga ārējās daļas augstums - " +outer_height);
 //The timeoutID can be used to cancel timeout by passing it to the "clearTimeout()" method.
 var timeoutID; //globālais mainīgais
 
-function showAlert() { 
-    timeoutID = setTimeout(alert, 3000, 'setTimeout Demo!'); //ieraksta
+function showAlert() { //shows an alert dialog
+    timeoutID = setTimeout(alert, 3000, 'setTimeout Demo!'); //sets a timer and executes a callback function when the timer expires.
     console.log("New timeoutID - " + timeoutID);
 }
 
 function cancelAlert() {
     console.log(" timeoutID to be cleared - " + timeoutID);
-    clearTimeout(timeoutID); // notīra
+    clearTimeout(timeoutID); // cancel timeout
 
 }
+
+//-------------------------------------------------------------------------------------------------
+//setInterval
+//The setInterval() repeatedly calls a function with a fixed delay between each call.
+//https://www.javascripttutorial.net/javascript-bom/javascript-setinterval/
+//->The callback is a callback function to be executed every delay milliseconds.
+//->The delay is the time (in milliseconds) that the timer should delay between executions of the callback function.
+//->The arg1, … argN are the arguments that are passed to the callback function.
+//The setInterval() returns a numeric, non-zero number that identifies the created timer. You can pass the intervalID to the clearInterval() to cancel the timeout.
+//!Note that the setInterval() works like the setTimeout() but it repeatedly executes a callback once every specified delay.
+let intervalID;
+
+  function start() {
+     intervalID = setInterval(toggleColor, 1000); //repeatedly calls a function once a fixed delay between each call.
+     console.log("New intervalID - " + intervalID )
+     document.getElementById("start").disabled = true; // pēc nospiešanas start pogu deaktivizējam
+  }
+
+  function stop() { //notīra darbības no reģistra ar intervalu
+    clearInterval(intervalID);
+    console.log(" intervalID to be cleared - " + intervalID );
+    document.getElementById("start").disabled = false; //pēc stop nospiešanas aktivizējam start pogu
+
+  }
+
+  function toggleColor() { //interactive colour change  
+    let e = document.getElementById('flashtext');
+    e.style.color = e.style.color == 'red' ? 'blue' : 'red';
+  }
+
+
+
+
+
+
+
+//-------------------------------------Section 2. Location------------------------------------------------------------
+//Location
+//The Location object represents the current location (URL) of a document. You can access the Location object by referencing the location property of the window or document object.
+//Both window.location and document.location link to the same Location object.
+//https://www.javascripttutorial.net/javascript-bom/javascript-location/
+
+//The location.href is a string that contains the entire URL. "http://localhost:8080/js/index.html?type=listing&page=2#title" (pilna hiper reference)
+
+//Location.protocol represents the protocol scheme of the URL including the final colon (:). "http:"
+
+//Location.host represents the hostname: "localhost:8080"
+
+//Location.port represents the port number of the URL. "8080"
+
+//Location.pathname contains an initial '/' followed by the path of the URL. "/js/index.html" (js - lokāla mašīna)
+
+//Location.search is a string that represents the query string of the URL: "?type=listing&page=2" (meklēšanas pieprasījums datu filtrēšanai)
+
+//Location.hash returns a string that contains a ‘#’ followed by the fragment identifier of the URL. "#title" (adresācija lapas ietvaros= ielādētās lapas ietvaros)
+
+//Location.origin is a string that contains the canonical form of the origin of the specific location. "http://localhost:8080" 
+
+
+
+
+//Location.username is a string that contains the username before the domain name.
+
+//Location.password is a string that represents the password specified before the domain name.
 
 
