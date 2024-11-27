@@ -437,17 +437,10 @@ The Location object represents the current location (URL) of a document. You can
 Both window.location and document.location link to the same Location object.
 
 >- The location.href is a string that contains the entire URL. "http://localhost:8080/js/index.html?type=listing&page=2#title" (pilna hiper reference)
-
 >- Location.protocol represents the protocol scheme of the URL including the final colon (:). "http:"
-
 >- Location.host represents the hostname: "localhost:8080"
-
 >- Location.port represents the port number of the URL. "8080"
-
 >- Location.pathname contains an initial '/' followed by the path of the URL. "/js/index.html" (js - lokāla mašīna)
-
 >- Location.search is a string that represents the query string of the URL: "?type=listing&page=2" (meklēšanas pieprasījums datu filtrēšanai)
-
 >- Location.hash returns a string that contains a ‘#’ followed by the fragment identifier of the URL. "#title" (adresācija lapas ietvaros= ielādētās lapas ietvaros)
-
 >- Location.origin is a string that contains the canonical form of the origin of the specific location. "http://localhost:8080" 
