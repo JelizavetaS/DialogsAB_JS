@@ -444,3 +444,18 @@ Both window.location and document.location link to the same Location object.
 >- Location.search is a string that represents the query string of the URL: "?type=listing&page=2" (meklēšanas pieprasījums datu filtrēšanai)
 >- Location.hash returns a string that contains a ‘#’ followed by the fragment identifier of the URL. "#title" (adresācija lapas ietvaros= ielādētās lapas ietvaros)
 >- Location.origin is a string that contains the canonical form of the origin of the specific location. "http://localhost:8080" 
+
+
+## 12.nodarbība
+
+https://www.javascripttutorial.net/javascript-bom/
+https://www.javascripttutorial.net/javascript-bom/javascript-location/
+https://www.hostinger.com/tutorials/domain-vs-hosting
+https://www.javascripttutorial.net/javascript-bom/javascript-navigator/
+https://developer.mozilla.org/en-US/docs/Web/API/ScreenDetailed
+https://www.javascripttutorial.net/javascript-bom/javascript-history/
+https://www.javascripttutorial.net/javascript-dom/
+https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javascript/
+https://developer.mozilla.org/en-US/docs/Web/API/Node
+https://www.javascripttutorial.net/javascript-dom/javascript-getelementbyid/
+https://www.javascripttutorial.net/javascript-dom/javascript-queryselector/
