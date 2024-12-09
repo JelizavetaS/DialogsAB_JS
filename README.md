@@ -425,10 +425,6 @@ let intervalID;
 
 
 
-
-
-
-
 ### Section 2. Location
 
 
@@ -472,4 +468,4 @@ piemērs no iepriekšēja kursa **https://github.com/tatusmatrixAB/DialogsAB_JS_
 >- Web privacy **https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning**
 **https://developer.mozilla.org/en-US/docs/Web/Privacy**
 
-
+>- JavaScript Form **https://www.javascripttutorial.net/javascript-dom/javascript-form/**
