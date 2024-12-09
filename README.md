@@ -459,3 +459,17 @@ https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javas
 https://developer.mozilla.org/en-US/docs/Web/API/Node
 https://www.javascripttutorial.net/javascript-dom/javascript-getelementbyid/
 https://www.javascripttutorial.net/javascript-dom/javascript-queryselector/
+
+
+## 14.nodarbība
+>- JavaScript Cookies **https://www.javascripttutorial.net/web-apis/javascript-cookies/**
+
+piemērs no iepriekšēja kursa **https://github.com/tatusmatrixAB/DialogsAB_JS_2024/blob/main/Nodarbiba_14/JS/script.js**
+
+>- https://www.w3schools.com/html/html5_webstorage.asp
+>- 
+>- Cookie with expire time **https://stackoverflow.com/questions/13154552/how-can-i-set-a-cookie-with-expire-time**
+>- Web privacy **https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning**
+**https://developer.mozilla.org/en-US/docs/Web/Privacy**
+
+
