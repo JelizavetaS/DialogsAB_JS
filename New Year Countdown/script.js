@@ -19,7 +19,7 @@ year.innerText = currentYear + 1; //html object
 // Izveidojam funkciju, kas atjaunos atskaites pulksteņa laiku Update countdown time
 function updateCountdown() { 
   const currentTime = new Date(); // objekts - currentTime iegūstam tagadējo laiku
-  const diff = newYearTime - currentTime; //izrēķinam starpību starp jauno gada un tagadējo laiku
+  const diff = newYearTime - currentTime; //izrēķinam starpību starp jauna gada un tagadējo laiku
 // ar matematiskām darbībām konvertējam iegūto laika starpību dienās, stundās, minutēs, sekundēs
   const d = Math.floor(diff / 1000 / 60 / 60 / 24); // no Date objekta datiem izrēķina dienas vērtību
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
