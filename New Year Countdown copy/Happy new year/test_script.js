@@ -8,12 +8,11 @@ const year = document.getElementById('year');
 const loading = document.getElementById('loading');
 const celebration = document.getElementById('celebration');
 const procceedButton = document.getElementById('proceed');
-const celebrationProceed = document.getElementById('celebration-proceed');
 const newYearCountdownTitle = document.getElementById('countdown-title');
+const confettiContainer = document.getElementById('confetti-container');
 
 // + pievienoju funkcionalitāti -> nospiežot uz pogas (proceed to next year) palaižam setNextYear funkciju
 procceedButton.addEventListener('click', setNextYear);
-celebrationProceed.addEventListener('click', setNextYear);
 
 // no Date objekta iegūstam tagadējo gadu
 let currentYear = new Date().getFullYear(); // .getFullYear - iebūvētā funkcija, kura no objekta Date izņem tikai gada 4 ciparus
@@ -30,7 +29,38 @@ function updateCountdown() {
   //const diff = newYearTime - currentTime; //izrēķinam starpību starp jauna gada un tagadējo laiku
   var diff = -1;
   console.log('difference: ' + diff);
+  //
+  function startCelebrationAnimation() {
+    // Fade-in the celebration text
+    celebration.classList.add('celebration-text');
   
+    // Generate confetti
+    const confettiCount = 100;
+    for (let i = 0; i < confettiCount; i++) {
+      const confettiPiece = document.createElement('div');
+      confettiPiece.classList.add('confetti');
+      confettiPiece.style.left = `${Math.random() * 100}vw`; // Random horizontal position
+      confettiPiece.style.animationDelay = `${Math.random() * 3}s`; // Random start time
+      confettiPiece.style.backgroundColor = getRandomColor(); // Random color
+      confettiContainer.appendChild(confettiPiece);
+  
+      // Remove confetti after animation
+      setTimeout(() => confettiPiece.remove(), 3000);
+    }
+  
+    // Fade-out celebration text after 5 seconds
+    setTimeout(() => {
+      celebration.classList.remove('celebration-text');
+      celebration.style.animation = 'fadeOut 2s ease-out forwards';
+    }, 5000);
+  }
+  
+  // Helper function to get a random color
+  function getRandomColor() {
+    const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+    return colors[Math.floor(Math.random() * colors.length)];
+  }
+//  
 
 
   // + pievienoju pārbaudi, kas parāda jaunā gada apsveikumu, ja laiks ir 00:00:00 un >, tad paslēpj atskaiti un parāda apsveikumu
@@ -64,9 +94,9 @@ function startCelebrationAnimation() {
 
   // Simple fade-in animation for celebration text
   //celebration.style.animation = 'fadeIn 6s ease-out forwards';
-  window.setTimeout(function () {
-    celebration.style.opacity = 0.1; // hide text
-    }, 5000);
+  // window.setTimeout(function () {
+  //   celebration.style.opacity = 0.1; // hide text
+  //   }, 5000);
   //confetti.style.animation = 'confetti 4s ease-out forwards';
 }
 

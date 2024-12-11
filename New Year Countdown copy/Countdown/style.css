@@ -37,7 +37,10 @@ body * {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 100px;
+  font-family: sans-serif; 
+  color: bisque;
+  letter-spacing: 10px;
   margin: -80px 0 40px;
 }
 
@@ -97,4 +100,74 @@ h1 {
   .time small {
     font-size: 10px;
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* @keyframes confetti {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+} */
+
+.celebration-text {
+  animation: fadeIn 2s ease-in forwards;
+}
+/* 
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: randomColor();
+  animation: confetti 3s linear infinite;
+} */
+
+@keyframes confetti {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.confetti {
+  position: absolute;
+  top: -10px; /* Start just above the viewport */
+  width: 10px;
+  height: 10px;
+  background-color: red; /* Default color; can be overridden in JS */
+  animation: confetti 3s linear infinite;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+#confetti-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }

@@ -1,0 +1,57 @@
+<!--https://javascript-mini-projects.netlify.app/newyear-->
+<!--https://newyearcountdown-clock.netlify.app-->
+<!DOCTYPE html> <!--It is an "information" to the browser about what document type to expect.-->
+<html lang="en"> <!--declare the language of the Web page-->
+  <head>
+    <!--meta gives the browser instructions on how to control the page's dimensions and scaling.-->
+    <meta charset="UTF-8" /> <!--HTML Unicode reference (A variable-length character encoding 1 to 4 bytes long)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <!--The width=device-width part sets the width of the page to follow the screen-width of the device 
+    (which will vary depending on the device).
+    The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+    <!--X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as.-->
+    <link rel="stylesheet" href="style.css" /> <!--Specifies the URL of the page the link goes to/ relatīvā adrese-->
+    <title>New Year Countdown</title> 
+  </head>
+  <body> 
+    <div id="year" class="year"></div> <!--attribute is used to specify a unique id for an HTML element.-->
+
+    <h1 id="countdown-title">New Year Countdown</h1>
+
+<!--Laika atskaites elemnta apraksts-->
+    <div id="countdown" class="countdown"> 
+      <div class="time">
+        <h2 id="days">00</h2> <!--aprakstam laika elementus -->
+        <small>days</small>
+      </div>
+      <div class="time">
+        <h2 id="hours">00</h2>
+        <small>hours</small>
+      </div>
+      <div class="time">
+        <h2 id="minutes">00</h2>
+        <small>minutes</small>
+      </div>
+      <div class="time">
+        <h2 id="seconds">00</h2>
+        <small>seconds</small>
+      </div>
+    </div>
+    <!--apsveikums Jaunā gadā + pieveinoju pogu lai uzsāktu atskaiti nākamam gadam -->
+    <button id="proceed">Procceed to New Year</button>
+    <div id="celebration">
+       <h1>Happy New Year!!!!</h1>
+    </div>
+    <div id="confetti-container"></div>
+<!--Loader apraksts, attēla pievienošana-->
+    <img
+      src="spinner.gif"
+      alt="Loading..."
+      id="loading"
+      class="loading"
+    />
+<!-- JS funkcionalitātes integrēšana html failā-->
+    <script src="script.js"></script>
+  </body>
+</html>
