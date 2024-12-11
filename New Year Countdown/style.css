@@ -57,6 +57,17 @@ h1 {
   transform: scale(2);
 }
 
+#celebration {
+  display: none;
+}
+
+#proceed {
+  position: absolute;
+  bottom: 20px;
+  background-color: gray;
+  border-radius: 20px;
+}
+
 .time {
   display: flex;
   flex-direction: column;
