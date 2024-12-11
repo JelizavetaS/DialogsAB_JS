@@ -1,5 +1,5 @@
-//object variables. No hmtl faila (index.html) nolasam noteiktus elementus (piem., id="countdown")
-const days = document.getElementById('days'); // piešķiram days elemntam maninīgo=reference uz elementu no html faila
+//object variables. No HTML faila (index.html) nolasām noteiktus elementus (piem., id="countdown")
+const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
@@ -11,11 +11,12 @@ const procceedButton = document.getElementById('proceed');
 const celebrationProceed = document.getElementById('celebration-proceed');
 const newYearCountdownTitle = document.getElementById('countdown-title');
 
-procceedButton.addEventListener('click', setNextYear);// pievienojam funkcionalitāti -> nospiežot uz pogas (proceed to next year) palaižam setNextYear funkciju
+// + pievienoju funkcionalitāti -> nospiežot uz pogas (proceed to next year) palaižam setNextYear funkciju
+procceedButton.addEventListener('click', setNextYear);
 celebrationProceed.addEventListener('click', setNextYear);
 
 // no Date objekta iegūstam tagadējo gadu
-let currentYear = new Date().getFullYear(); //.getFullYear - iebūvētā funkcija, kura  no objekta Date izņem tikai gada 4 ciparus
+let currentYear = new Date().getFullYear(); // .getFullYear - iebūvētā funkcija, kura no objekta Date izņem tikai gada 4 ciparus
 
 // izveidojam jaunu Date objektu, kas satur jaunā gada datus
 let newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);
@@ -26,17 +27,22 @@ year.innerText = currentYear + 1; //html object
 // Izveidojam funkciju, kas atjaunos atskaites pulksteņa laiku Update countdown time
 function updateCountdown() { 
   const currentTime = new Date(); // objekts - currentTime iegūstam tagadējo laiku
-  const diff = newYearTime - currentTime; //izrēķinam starpību starp jauna gada un tagadējo laiku
-//pievienoju pārbaudi, kas parāda jaunā gada apsveikumu, ja laiks ir 00:00:00 un >, tad paslēpj atskaiti un parāda apsveikumu
+  //const diff = newYearTime - currentTime; //izrēķinam starpību starp jauna gada un tagadējo laiku
+  var diff = -1;
+  console.log('difference: ' + diff);
+  
+
+
+  // + pievienoju pārbaudi, kas parāda jaunā gada apsveikumu, ja laiks ir 00:00:00 un >, tad paslēpj atskaiti un parāda apsveikumu
   if (diff <= 0) {
     countdown.style.display = 'none';
     newYearCountdownTitle.style.display = 'none';
     celebration.style.display = 'flex'; //apsveikuma atspoguļošana
-
-    return;// apstādinam funkciju, kamēr neuzpiedīsim pogu 
+    startCelebrationAnimation();
+    return; // + apstādinam funkciju, kamēr neuzpiedīsim pogu 
   }
 
-// ar matematiskām darbībām konvertējam iegūto laika starpību dienās, stundās, minutēs, sekundēs
+  // ar matematiskām darbībām konvertējam iegūto laika starpību dienās, stundās, minutēs, sekundēs
   const d = Math.floor(diff / 1000 / 60 / 60 / 24); // no Date objekta datiem izrēķina dienas vērtību
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   const m = Math.floor(diff / 1000 / 60) % 60;
@@ -49,8 +55,22 @@ function updateCountdown() {
                                           //(piem, 0+h<10 - 07, 08, 09), else stunda (h; 10, 11, 12 utt.)
   minutes.innerHTML = m < 10 ? '0' + m : m; // if m<10 then '0', else 'm'
   seconds.innerHTML = s < 10 ? '0' + s : s;// if s<10 then '0', else 's'
-
 }
+
+// Add animation to the celebration window
+function startCelebrationAnimation() {
+
+  //const confetti = celebration.querySelector('.confetti');
+
+  // Simple fade-in animation for celebration text
+  //celebration.style.animation = 'fadeIn 6s ease-out forwards';
+  window.setTimeout(function () {
+    celebration.style.opacity = 0.1; // hide text
+    }, 5000);
+  //confetti.style.animation = 'confetti 4s ease-out forwards';
+}
+
+
 // pieveinoju funkciju, kas ļauj sākt atskaiti nākamajam jaunajam gadam
 function setNextYear() {
   currentYear = currentYear + 1;
@@ -58,9 +78,9 @@ function setNextYear() {
 
   celebration.style.display = 'none'; //paslēpj apsveikumu, sākoties jaunai atskaitei
   countdown.style.display = 'flex'; // atskaites izvietojums
-  newYearCountdownTitle.style.display = 'block';//atgriež atpakaļ nosaukumu "New Year Countdown"
+  newYearCountdownTitle.style.display = 'block'; //atgriež atpakaļ nosaukumu "New Year Countdown"
 
-  year.innerText = currentYear + 1;//nomainam gadu
+  year.innerText = currentYear + 1; //nomainam gadu
   updateCountdown(); //palaižam atskaiti no jauna
 }
 
@@ -71,6 +91,6 @@ setTimeout(() => {
   countdown.style.display = 'flex'; // nomaina display stilu "none" uz "flex", tadējādi attēlojot skaitītāju 
 }, 1000);  
 
-// setInterval ir metode, kas palaiž atkārtoti padoto FUNKCIJU (updateCountdown) katras 1000ms
+// setInterval ir metode, kas palaiž atkārtoti padoto funkciju (updateCountdown) katras 1000ms
 //-> katru sekundi atjauno laika atskaiti 
 setInterval(updateCountdown, 1000);
